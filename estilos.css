@@ -1,0 +1,442 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: black;
+    background-image: url('img/background.png');
+}
+
+header {
+    padding-top: 20px;
+    position: relative;
+}
+
+#container {
+    width: 940px;
+    margin: auto;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+h1 a {
+    height: 134px;
+    width: 130px;
+    display: block;
+    text-indent: -9999px;
+    background-image: url('img/logo_GK.png');
+    margin-left: 40px;
+}
+
+h2 {
+    border-bottom: solid 2px grey;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: black;
+}
+
+figure {
+    background-color: #f2EDED;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    line-height: 1.5em;
+}
+
+.centro-distribuicao {
+    margin: 0px auto;
+    text-align: center;
+    width: 550px;
+    border: none;
+    background-color: transparent;
+}
+
+.familia-teles {
+    float: right;
+    text-align: center;
+    margin: 0 0 10px 10px;
+    border: none;
+    background-color: transparent;
+}
+
+li {
+    margin: 15px 0px 0px 60px;
+}
+
+a:link {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: #ccc;
+    margin: 30px 0px;
+    background: url('img/fundo-rodape.png');
+    clear: both;
+}
+
+.caixa-footer img {
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.social {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.social li {
+    display: inline;
+    margin: 0;
+}
+
+.caixa-footer {
+    position: relative;
+    padding: 20px;
+}
+
+.facebook {
+    background: url('img/sociais.png');
+    background-position: 0px 0px;
+}
+
+.twitter {
+    background: url('img/sociais.png');
+    background-position: -88px 0px;
+}
+
+.googleplus {
+    background: url('img/sociais.png');
+    background-position: -44px 0px;
+}
+
+/* Index */
+
+header {
+    position: relative;
+}
+
+.sacola {
+    background: url('img/sacola.png') no-repeat;
+    background-position: right;
+    width: 140px;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 0;
+}
+
+.menu-principal {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    display: inline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menu-principal ul li {
+    display: inline;
+    padding: 2px;
+}
+
+.menu-principal ul li a:hover {
+    color: yellowgreen;
+}
+
+.menu-principal li {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.busca {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.busca input {
+    vertical-align: middle;
+    margin: -5px;
+}
+
+.busca input[type="search"] {
+    height: 25px;
+    width: 170px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.busca h2 {
+    margin: 8px;
+}
+
+.caixa-destaque {
+    margin-top: 10px;
+}
+
+.caixa-destaque img {
+    float: right;
+}
+
+.menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 4px;
+    border: 2px;
+    padding: 5px 10px;
+    float: initial;
+    text-align: left;
+    list-style: none;
+}
+
+.menu-departamentos h2 {
+    margin: 8px;
+}
+
+.menu-departamentos a {
+    color: grey;
+    text-decoration: none;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #dcdcdc;
+    padding-left: 4px;
+    padding-right: 1px;
+}
+
+.menu-departamentos ul ul li a:before {
+    content: '- ';
+}
+
+.fotoprincipal {
+    float: right;
+    width: 680px;
+    top: 0;
+    margin-bottom: 20px;
+}
+
+.painel h2:before {
+    content: '\2756';
+    padding-right: 5px;
+    opacity: 0.4;
+}
+
+.painel.novidades {
+    border-radius: 5px;
+    width: 445px;
+    float: left;
+    background-color: #f5dcdc;
+    background-image: linear-gradient(to bottom, #f5dcdc, #bebef4);
+    box-shadow: inset 0px 0px 20px white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.painel.mais-vendidos {
+    border-radius: 5px;
+    width: 445px;
+    float: right;
+    background-color: #dcdcf5;
+    background-image: linear-gradient(to bottom, #dcdcf5, #f4bebe);
+    box-shadow: inset 0px 0px 20px white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.figura-edit {
+    float: left;
+    height: auto;
+    padding: 0;
+    margin: 6px 6px;
+    width: 140px;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    padding-bottom: 10px;
+    margin: 2px;
+    transition: 0.7s ease-out;
+}
+
+.painel li:hover {
+    box-shadow: 3px 3px 6px #666;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2) rotate(-5deg);
+    transition: 0.7s ease-in;
+    padding-bottom: 0px;
+}
+
+.painel h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.painel a {
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+.painel figure,
+.painel figcaption {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+/* Contato */
+
+#contato {
+    margin: 0;
+    width: 100%;
+}
+
+#contato form {
+    width: 65%;
+    text-align: left;
+}
+
+input,
+textarea,
+select {
+    padding: 5px;
+    color: #333;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    color: black;
+    background-color: whitesmoke;
+}
+
+
+
+/* Fidelidade */
+
+table {
+    width: 820px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table td {
+    font-size: 1em;
+    line-height: 1.2em;
+    vertical-align: middle;
+    padding: 6px;
+
+}
+
+.tdtableleft {
+    width: 200px;
+    text-align: left;
+}
+
+.colortablea {
+    background: white;
+}
+
+.colortableb {
+    background: grey;
+}
+
+}
+
+tr:nth-child(1) {
+    background-color: mediumseagreen;
+
+}
+
+tr:nth-child(2) {
+    background-color: darkcyan;
+
+}
+
+tr:nth-child(3) {
+    background-color: mediumseagreen;
+
+}
+
+tr:nth-child(4) {
+    background-color: darkcyan;
+
+}
+
+tr:nth-child(5) {
+    background-color: mediumseagreen;
+
+}
+
+tr:nth-child(6) {
+    background-color: darkcyan;
+
+}
+
+tr:nth-child(7) {
+    background-color: mediumseagreen;
+
+}

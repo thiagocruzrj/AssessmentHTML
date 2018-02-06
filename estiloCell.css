@@ -1,0 +1,227 @@
+@media screen and (max-width: 320px) {
+    #container {
+        margin: 0 auto;
+        width: 100%;
+    }
+    figure {
+
+        background-color: #F2EDED;
+        border: 0.063em solid black;
+        text-align: center;
+        margin: 1.875em;
+        padding: 0.938em;
+        max-width: 100%;
+    }
+
+    .centro-distribuicao img {
+
+        width: 90%;
+
+    }
+
+    .centro-distribuicao {
+        margin: 0 auto;
+        max-width: 34.375em;
+        width: 90%;
+
+    }
+
+    .familia-teles {
+        float: none;
+        margin-bottom: 0.625em;
+        margin-right: 0.625em;
+
+    }
+
+
+
+
+
+      footer {
+        color: #ccc;
+        margin-bottom: 1.875em;
+        margin-top: 1.875em;
+        margin-right: 0;
+        margin-left: 0;
+        background-image: url('img/fundo-rodape.png');
+        clear: both;
+    }
+
+    #caixa-footer {
+        width: 100%;
+
+    }
+    .caixa-footer ul {
+        position: relative;
+        padding: 1.250em;
+        list-style-type: none;
+        float: right;
+    }
+
+    .caixa-footer ul li {
+        padding: 0.313em;
+        display: inline;
+    }
+
+
+    .social {
+        position: absolute;
+        margin-top: 30px;
+        margin-right: 20px;
+
+    }
+
+    .facebook {
+        background: url('img/sociais.png');
+        background-position: 0px 0px;
+    }
+
+    .twitter {
+        background: url('img/sociais.png');
+        background-position: -88px 0px;
+    }
+
+    .googleplus {
+        background: url('img/sociais.png');
+        background-position: -44px 0px;
+    }
+
+
+
+
+    .menu-principal ul {
+        list-style-type: none;
+        position: relative;
+        bottom: 0;
+        right: 0;
+
+    }
+    .menu-principal ul li {
+        padding: 0.313em;
+        display: block;
+    }
+
+
+
+
+
+
+
+    .sacola {
+        background: url("../img/sacola.png") no-repeat;
+        text-align: right;
+        max-width: 100%;
+        position: relative;
+        float: right;
+        margin-left: 50px;
+
+    }
+
+
+
+    .busca {
+        background-color: #dcdcdc;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 0.625em;
+        width: 100%;
+        float: none;
+        border-top-right-radius: 0.625em;
+        border-top-left-radius: 0.625em;
+
+
+    }
+
+
+    .busca input[type="search"] {
+        width: 170px;
+        height: 25px;
+        border-radius: 0.625em;
+    }
+
+
+    /* MENU DE DEPARTAMENTOS */
+    .painel.novidades {
+        width: 440px;
+        float: none;
+        background-color: #f5dcdc;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+        max-width: 100%;
+
+
+    }
+    .painel.mais-vendidos {
+        width: 440px;
+        float: none;
+        background-color: #dcdcf5;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+        margin-right: 10px;
+        max-width: 100%;
+
+    }
+
+
+    .paineis li {
+        display: inline-block;
+        vertical-align: top;
+        height: 100%;
+        margin: 0.625em;
+        margin-left: 40px;
+        padding-bottom: 0.625em;
+        -webkit-transition: all 0.7s ease-out;
+        -moz-transition: all 0.7s ease-out;
+        -o-transition: all 0.7s ease-out;
+        transition: all 0.7s ease-out;
+    }
+
+
+
+
+    /* CONTATO */
+    .contato {
+        width: 56.250em;
+        max-width: 100%;
+    }
+
+    .contato input[type=text],
+    .contato [type=email],
+    .contato select,
+    .contato textarea {
+        width: 100%;
+        padding: 0.750em;
+        border: 0.063em solid #ccc;
+        border-radius: 0.250em;
+        box-sizing: border-box;
+        margin-top: 0.375em;
+        margin-bottom: 1.000em;
+        margin-left: 0.625em;
+
+        resize: vertical;
+    }
+
+
+    .contato input[type=submit] {
+        background-color: rgba(113, 68, 45, 0.6);
+        color: white;
+        padding: 0.750em 1.250em;
+        border: none;
+        border-radius: 0.250em;
+        cursor: pointer;
+        margin-left: 0.938em;
+        margin-top: 10px;
+    }
+
+
+    .contato input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+
+
+    .contato label {
+        margin-left: 0.938em;
+    }
+    form {
+        margin-top: 15px;
+    }
+}

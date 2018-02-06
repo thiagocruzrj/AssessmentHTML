@@ -1,0 +1,126 @@
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+    #container {
+        margin: 0 auto;
+        padding: 10px;
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        padding-top: 5px;
+    }
+    header h1 {
+        display: block;
+        width: 130px;
+        margin-left: 160px;
+    }
+    header h1 a {
+        margin-left: 0;
+    }
+    .sacola {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin-left: -10px;
+        position: relative;
+    }
+    .menu-principal {
+        position: relative;
+        margin-top: 10px;
+        list-style-type: none;
+    }
+
+    .menu-principal ul li {
+        border: 1px solid black;
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+    .menu-principal ul {
+        margin-top: 10px;
+    }
+
+    /* Index */
+    .busca,
+    .menu-departamentos {
+        width: 100%;
+
+    }
+    .busca input[type='search'] {
+        width: 88%;
+        margin: 10px;
+    }
+    .caixa-destaque img {
+        max-width: 68%;
+    }
+
+    .painel {
+        float: none;
+        margin: 15px auto;
+        text-align: center;
+        max-width: 100%;
+    }
+    .painel li {
+        max-width: 45%;
+        margin: 2%;
+    }
+    .painel li figure img {
+        width: 140px;
+    }
+    /* Sobre */
+    #sobre p,
+    #historia p,
+    #diferenciais p {
+        padding: 0 14px;
+    }
+    .centro-distribuicao {
+        width: 100%;
+        float: none;
+    }
+    .centro-distribuicao img {
+        width: 100%;
+    }
+
+    .familia-teles {
+        margin: 10px auto;
+        float: none;
+    }
+
+    .familia-teles img {
+        width: 100%;
+    }
+
+    .diferenciais li {
+        margin: 15px 30px;
+    }
+    /* Fidelidade*/
+    .fidelidade {
+        padding: 10px;
+    }
+    table {
+        width: 95%;
+    }
+    /* Contato*/
+    #contato form {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .caixa-footer {
+        overflow: visible;
+        text-align: center;
+    }
+    .caixa-footer img {
+        display: block;
+        clear: both;
+        margin: 5px auto;
+    }
+    .social {
+        position: static;
+        margin: 10px auto;
+        top: 0;
+    }
+}

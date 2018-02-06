@@ -1,0 +1,68 @@
+1)	Quando é recomendando a criação de um site separado para mobile? Seria este o caso deste site da GK Fashion? 
+  É necessário quando os dados passam a ser incompreendidos ou a leitura se torna prejudicial ao usuário final.
+ Garantir a navegação em diversos dispositivos tornando assim o site responsivo é um métodos de angariar mais usuarios pela boa experiência que
+ o site passa. Para a GK Fashion, acredito, que por ser um portal e um e-commerce da marca, é sim importante a responsividade 
+em diversos dispositivos.
+
+2)	No caso de um CSS específico para print, como ele deve ser inserido?
+Deve ser inserido no topo da página na sessão <header>, criado um modelo especifico de css para impressão.
+Exemplo: <link rel="stylesheet" type="text/css" href="print.css" media="print"/> 
+Existe outra maneira, no css principal vinculado ao html inserir por media types. 
+Especificações devem ser efetuados como verificar margens, tamanho do texto, cor da impressão entre outras. 
+
+1)	O elemento audio permite como elemento-filho o elemento source. 
+Quais são os atributos que o source permite e qual conteúdo eles suportam? 
+Quais os outros atributos do elemento audio e quando devem ser utilizados?
+src - Endereço do arquivo de mídia a ser incorporado (obrigatório) 
+type - Informa ao navegador o tipo de mídia, para que possa decidir o que fazer. Permite ainda o parâmetro codecs. 
+media - Destina-se a informar ao navegador o tipo de mídia. 
+
+preload - usado para carregar arquivos grandes 
+autoplay - usado para reproduzir o áudio automaticamente 
+loop - usado para reproduzir o áudio repetidamente automaticamente 
+controls - usado para mostrar os controles padrões para o áudio na página 
+ 
+2)	O elemento video permite como elemento-filho o elemento source. 
+Quais são os atributos que o source permite e qual conteúdo eles suportam? 
+Quais os outros atributos do elemento video e quando devem ser utilizados? 
+
+Atributos permitidos e conteúdos suportados: 
+src - Endereço do arquivo de mídia a ser incorporado (obrigatório). 
+type - Informa ao navegador o tipo de mídia, para que possa decidir o que fazer. Permite ainda o parâmetro codecs. 
+media - Destina-se a informar ao navegador o tipo de mídia. 
+
+Outros atributos: 
+preload - usado para carregar arquivos grandes 
+autoplay - usado para reproduzir o vídeo automaticamente 
+loop - usado para reproduzir o vídeo repetidamente automaticamente 
+controls - usado para mostrar os controles padrões para o vídeo na página 
+
+3)	No caso do canvas, HTML 5 nunca, em momento algum, fez qualquer animação. 
+Isso porquê o HTML 5 é uma simples linguagem de marcação. Dessa forma, o que é necessário para criar animações com HTML5? 
+O que são APIs do HTML5? 
+
+A criação de animações com HTML5 é efetuada com a tag <canvas> que delimita a área para linguagens dinâmicas como o JS. Podendo criar diversos efeitos como imagens, graficos e textos com a redenrização dinamica, fazendo a manipulação e desenho através da interfaçe de programação de aplicativos ou API, na qual é responsavel por fazer a comunicação entre codigos para a definição de comportamentos dos objetos na interface.
+ 
+4)	Como o CSS3 pode ser aplicado na aparência da multimídia HTML5.   Demonstre com um exemplo: 
+Elementos de vídeo e áudio são como qualquer outros no HTML5, sendo assim possível usar o CSS vinculado para atribuir estilos,
+ transições, animações e funcionalidades.  
+Elementos como vídeo e áudio são como qualquer outro elemento HTML, fazendo o vinculo com o CSS e a atribuição de estilos.
+Exemplo:
+   <!DOCTYPE html> 
+<html> 
+<body> 
+
+<video width="720" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Seu navegador não suporta videos HTML5.
+</video>
+
+<p>
+Video courtesy of 
+<a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+</p>
+
+</body> 
+</html>
+
